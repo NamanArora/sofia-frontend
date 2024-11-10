@@ -1,7 +1,8 @@
 // api.js
 import axios from 'axios';
+import 'dotenv/config'
 
-const API_BASE_URL = 'http://localhost:3333';
+const API_BASE_URL = process.env.BACKEND;
 
 export const translateSingle = async (request) => {
   try {
