@@ -9,7 +9,6 @@ export const translateSingle = async (request) => {
       `${API_BASE_URL}/api/translate`,
       request
     );
-    console.log(response);
     return response.data;
   } catch (error) {
     if (axios.isAxiosError(error)) {
@@ -25,7 +24,6 @@ export const translateBulk = async (request) => {
       `${API_BASE_URL}/api/translate-bulk`,
       request
     );
-    console.log(response);
     return response.data;
   } catch (error) {
     if (axios.isAxiosError(error)) {

@@ -19,7 +19,6 @@ const domains = [
 ];
 
 const ResultCard = ({ result }) => {
-  console.log(result);
   return (
     <Card className="mt-4">
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
@@ -349,7 +348,7 @@ const App = () => {
       <div className="container mx-auto max-w-3xl">
         <Card>
           <CardHeader>
-            <CardTitle>Sofia</CardTitle>
+            <CardTitle>Sofia v1</CardTitle>
             <CardDescription>
               Transform your sustainability experience for different domains
             </CardDescription>
