@@ -3,6 +3,7 @@ import Sidebar, { navigation } from './components/ui/sidebar';
 import { CVPointConverter } from './components/tabs/convert';
 import { STARFramework } from './components/tabs/star';
 import { JobHunter } from './components/tabs/JobHunter';
+import { FeedbackButton } from './components/tabs/feedback';
 
 // Map of component configurations
 const componentMap = {
@@ -33,6 +34,7 @@ export default function App() {
               );
             })}
           </div>
+          <FeedbackButton />
         </div>
       </div>
     </div>
