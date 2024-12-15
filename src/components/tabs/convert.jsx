@@ -350,7 +350,7 @@ const CVPointConverter = () => {
           <CardHeader>
             <CardTitle>Sofia v1</CardTitle>
             <CardDescription>
-              Transform your sustainability experience for different domains
+              Transform your previous experience for different domains
             </CardDescription>
           </CardHeader>
           <CardContent>

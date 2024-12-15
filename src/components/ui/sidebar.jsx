@@ -49,7 +49,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
       {/* Footer */}
       <div className="p-4 border-t">
         <p className="text-center">
-          <span className="font-medium bg-gradient-to-r from-red-600 via-green-700 to-blue-600 bg-clip-text text-transparent">Team DISHA 🤝 closeAI
+          <span className="font-medium bg-gradient-to-r from-red-600 via-green-700 to-blue-600 bg-clip-text text-transparent">Team DISHA & CloseAI
           </span>
         </p>
       </div>
